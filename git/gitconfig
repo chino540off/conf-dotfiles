@@ -1,0 +1,15 @@
+[user]
+	name = Olivier Detour
+	email = detour.olivier@gmail.com
+
+[alias]
+    ci = commit -a
+    co = checkout
+    st = status -a
+    br = branch
+    pull = pull --tags
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
