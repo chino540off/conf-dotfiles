@@ -16,10 +16,9 @@ URxvt*color12:     #4186be
 URxvt*color13:     #cf9ebe
 URxvt*color14:     #71bebe
 URxvt*color15:     #ffffff
-URxvt*font:    xft:Monospace:size=15
-URxvt*font:    7x14
+URxvt.font:        xft:Bitstream Vera Sans Mono:pixelsize=12
 URxvt*scrollBar: false
-URxvt*transparent: false
+URxvt*transparent: true
 URxvt*tintingType: false
 URxvt*tinting: #ffffff
 URxvt*shading: 10 
