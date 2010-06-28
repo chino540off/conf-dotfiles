@@ -1,0 +1,3 @@
+urxvtd&
+
+exec awesome -c ~/conf/awesome/rc.lua
