@@ -13,3 +13,6 @@
 	diff = auto
 	status = auto
 	branch = auto
+
+[rerere]
+	enable = 1
