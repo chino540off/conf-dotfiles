@@ -8,6 +8,7 @@
     st = status
     br = branch
     pull = pull --tags
+    lp = log -p
 
 [color]
 	diff = auto
