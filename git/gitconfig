@@ -5,7 +5,7 @@
 [alias]
     ci = commit -a
     co = checkout
-    st = status -a
+    st = status
     br = branch
     pull = pull --tags
     lp = log -p
