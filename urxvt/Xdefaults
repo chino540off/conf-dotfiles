@@ -17,9 +17,9 @@
 *color13:     #cf9ebe
 *color14:     #71bebe
 *color15:     #ffffff
-*font:        xft:Bitstream Vera Sans Mono:pixelsize=12
+*font:        xft:Bitstream Vera Sans Mono:pixelsize=11
 *scrollBar: false
 *transparent: true
 *tintingType: false
 *tinting: #ffffff
-*shading: 10 
+*shading: 20 
