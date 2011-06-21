@@ -1,3 +1,9 @@
 urxvtd&
 
+if [ `which synclient` != "" ]; then
+  synclient MaxTapTime=0
+fi
+
 exec awesome -c ~/conf/awesome/rc.lua
+
+# vim:filetype=zsh
