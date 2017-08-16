@@ -9,6 +9,7 @@
     br = branch
     pull = pull --tags
     lp = log -p
+    rup = remote update --prune
 
 [color]
 	diff = auto
