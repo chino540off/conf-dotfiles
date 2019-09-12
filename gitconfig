@@ -1,22 +1,55 @@
 [user]
-	name = Olivier Detour
-	email = detour.olivier@gmail.com
+        name = Olivier Detour
+        email = detour.olivier@gmail.com
 
 [alias]
-    ci = commit -a
-    co = checkout
-    st = status
-    br = branch
-    pull = pull --tags
-    lp = log -p
-    rup = remote update --prune
+        a = add
+
+        b = branch
+        ba = branch -a
+        bd = branch -d
+        bD = branch -D
+        bm = branch -m
+        nb = checkout -b
+
+        c = commit
+        ca = commit -a
+        caa = commit -a --amend
+
+        cp = cherry-pick
+        cpa = cherry-pick --abort
+        cpc = cherry-pick --continue
+
+        co = checkout
+
+        d = diff
+        dd = diff --check --dirstat --find-copies --find-renames --histogram --color
+
+        l = log --graph --oneline
+        lp = log -p
+
+        re = reset
+        reh = reset --hard
+
+        rb = rebase
+        rbi = rebase -i --autosquash
+        rba = rebase --abort
+        rbc = rebase --continue
+
+        rup = remote update --prune
+
+        po = !git push origin $(git symbolic-ref --short HEAD)
+        pof = !git push -f origin $(git symbolic-ref --short HEAD)
+
+        s = status
 
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-
+        diff = auto
+        status = auto
+        branch = auto
 [rerere]
-	enable = 1
+        enable = 1
 [push]
-	default = simple
+        default = simple
+[pager]
+        branch = false
