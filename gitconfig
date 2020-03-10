@@ -55,5 +55,7 @@
         enable = 1
 [push]
         default = simple
+        recurseSubmodules = on-demand
+
 [pager]
         branch = false
