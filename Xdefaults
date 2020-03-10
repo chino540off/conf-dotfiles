@@ -1,4 +1,4 @@
-*termName: xterm-256color
+*termName:    xterm-256color
 *background:  #000000
 *foreground:  #ffffff
 *color0:      #000000
@@ -18,11 +18,11 @@
 *color14:     #71bebe
 *color15:     #ffffff
 *font:        xft:Bitstream Vera Sans Mono:pixelsize=11
-*scrollBar: false
+*scrollBar:   false
 *transparent: true
 *tintingType: false
-*tinting: #ffffff
-*shading: 20 
+*tinting:     #ffffff
+*shading:     20
 
 URxvt.keysym.Control-Up:     \033[1;5A
 URxvt.keysym.Control-Down:   \033[1;5B
