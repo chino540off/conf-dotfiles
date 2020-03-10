@@ -16,6 +16,8 @@
         ca = commit -a
         caa = commit -a --amend
 
+        cl = clone --recurse-submodules
+
         cp = cherry-pick
         cpa = cherry-pick --abort
         cpc = cherry-pick --continue
@@ -42,6 +44,8 @@
         pof = !git push -f origin $(git symbolic-ref --short HEAD)
 
         s = status
+
+        smu = !git pull && git submodule update --init --recursive
 
 [color]
         diff = auto
