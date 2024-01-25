@@ -19,3 +19,8 @@ $(_m)-link-Xresources	= ~/.Xresources
 $(_m)-link-resize_font	= ~/.urxvt/ext/resize-font
 $(_m)-link-xinitrc	= ~/.xinitrc
 $(_m)-link-xsession	= ~/.xsession
+
+$(_m)-cmds =	\
+  git		\
+  urxvtc	\
+  urxvtd
