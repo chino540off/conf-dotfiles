@@ -1,6 +1,7 @@
 [user]
-        name = Olivier Detour
-        email = detour.olivier@gmail.com
+	name = Olivier Détour
+	email = odetour@antidot.net
+	signingkey = 449D6B9059A61FF1
 
 [alias]
         a = add
@@ -25,6 +26,7 @@
         co = checkout
 
         d = diff
+        ds = diff --staged
         dd = diff --check --dirstat --find-copies --find-renames --histogram --color
 
         g = grep -i --color=always

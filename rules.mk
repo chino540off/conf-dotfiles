@@ -9,7 +9,8 @@ $(_m)-links =	\
   Xresources	\
   resize_font	\
   xinitrc	\
-  xsession
+  xsession	\
+  wezterm.lua
 
 $(_m)-dir-urxvt_ext	= ~/.urxvt/ext
 
@@ -19,8 +20,10 @@ $(_m)-link-Xresources	= ~/.Xresources
 $(_m)-link-resize_font	= ~/.urxvt/ext/resize-font
 $(_m)-link-xinitrc	= ~/.xinitrc
 $(_m)-link-xsession	= ~/.xsession
+$(_m)-link-wezterm.lua	= ~/.wezterm.lua
 
 $(_m)-cmds =	\
   git		\
   urxvtc	\
-  urxvtd
+  urxvtd	\
+  wezterm
